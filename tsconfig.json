@@ -1,0 +1,24 @@
+{
+  "compileOnSave": true,
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "**/*.ts"
+  ],
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es6",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "jsx": "react"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

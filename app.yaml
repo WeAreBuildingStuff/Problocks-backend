@@ -1,0 +1,9 @@
+runtime: nodejs20
+instance_class: F1
+env: standard
+service: backend
+
+env_variables:
+  MY_SECRET: ${GOOGLE_GENAI_API_KEY}
+
+entrypoint: npm start
